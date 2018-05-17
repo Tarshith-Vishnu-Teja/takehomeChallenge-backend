@@ -22,7 +22,6 @@ let authenticate = function(req, res, next){
   })
 }
 
-/* GET users listing. */
 router.get('/login', (req, res, next) => {
   var email = req.query.email;
   var password = req.query.password;
